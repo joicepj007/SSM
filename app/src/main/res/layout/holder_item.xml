@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="brands"
+            type="com.android.ssm.BrandsListQuery.Brand" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_card_img_hieght"
+        android:layout_margin="@dimen/marginr_10"
+        app:cardCornerRadius="@dimen/marginr_8"
+        app:cardElevation="@dimen/marginr_4"
+        app:cardUseCompatPadding="true">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginr_10"
+            android:layout_toEndOf="@+id/iv_header"
+            android:ellipsize="end"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@{brands.name}"
+            android:textColor="@color/black"
+            android:textSize="@dimen/marginr_18sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

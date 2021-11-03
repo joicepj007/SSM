@@ -1,0 +1,8 @@
+query BrandsList {
+    brands(PAGE: 1, PAGE_SIZE: 10) {
+        Brands {
+            _id
+            name
+        }
+    }
+}

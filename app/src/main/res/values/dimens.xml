@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="material_button_width">160dp</dimen>
+    <dimen name="layout_card_img_hieght">160dp</dimen>
+    <dimen name="layout_img_width">90dp</dimen>
+    <dimen name="marginr_10">10dp</dimen>
+    <dimen name="marginr_4">4dp</dimen>
+    <dimen name="marginr_6">6dp</dimen>
+    <dimen name="marginr_8">8dp</dimen>
+    <dimen name="marginr_18sp">18sp</dimen>
+    <dimen name="marginr_25">25dp</dimen>
+    <dimen name="marginr_50">50dp</dimen>
+
+</resources>

@@ -1,0 +1,14 @@
+query IssuesList($PAGE:Int!,$PAGE_SIZE:Int!, $brandId:String!) {
+  issues(PAGE: $PAGE, PAGE_SIZE: $PAGE_SIZE, brandId: $brandId) {
+    Meta {
+      count
+    }
+    Issues {
+      _id
+      designation
+      cover {
+        x
+      }
+    }
+  }
+}

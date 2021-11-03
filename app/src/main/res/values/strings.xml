@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">S&amp;SM</string>
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="str_users">Brands</string>
+    <string name="str_retry">Retry</string>
+    <string name="str_no_internet">No Internet Connection</string>
+</resources>
