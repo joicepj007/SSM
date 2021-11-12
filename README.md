@@ -1,7 +1,3 @@
-# android-test
-
-Hello! Thanks for letting me to take part in this test. I was glad i could take it.
-
 ### Architecture Used:
 
 MVVM(Model-View-ViewModel) with Clean architecture pattern used in this project.
